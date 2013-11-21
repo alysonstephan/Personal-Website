@@ -74,7 +74,7 @@ margin-top: 50px;
 }
 
 #one {
-font-size: 33em;
+font-size: 23em;
 color: white;
 font-family: 'Dancing Script', cursive;
 text-align: center;
@@ -88,20 +88,22 @@ height: 56px;
 .quote {
 color: white;
 text-align:center;
-font-size: 2em;
+font-size: 1.5em;
 font-family: 'EB Garamond', serif;
 }
 
 
 #two {
-font-size: 8em;
+font-size: 7em;
 color: Black;
 font-family: 'Dancing Script', cursive;
+text-align: center;
 }
 
 #three {
-font-size: 2em;
+font-size: 1.7em;
 font-family: 'EB Garamond', serif;
+text-align: center;
 }
 
 #four {
@@ -112,4 +114,13 @@ font-family: 'EB Garamond', serif;
 width: 530px;
 height: 142px;
 float: right;
+}
+
+.skills{
+width: 650px;
+height: 485px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+
 }
