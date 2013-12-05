@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tortilla Pizzas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:100' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page1">
+
+<div class="container">
+<div class="row">
+<h1 id="title" class="col-xs-12 col-md-12">Tortilla Pizzas</h1>
+<h2 id="subtitle" class="col-xs-12 col-md-12">Author: Cookie and Kate</h2>
+
+<p id="paragraph1" class="col-xs-12 col-md-12">This is a <em>simple</em> Tortilla Pizza recipe that was originally posted to <a href="cookieandkate.com">Cookie and Kate's website</a>.</p>
+<img src="pizza.jpg" class="picture" class="col-xs-12 col-md-12" alt="pizza">
+</div>
+</div>
+ 
+<div class="container">
+<div class="row">
+<h3 id="heading" class="col-xs-12 col-md-12">Ingredients</h3>
+<ul class="col-xs-12 col-md-12" >
+<li>1 whole wheat tortilla (or whole wheat pita bread)</li>
+<li>1/4 cup sauce (marinara, pesto, olive oil and garlic, barbecue sauce)</li>
+<li>1/3 cup or less shredded/crumbled cheese (mozzarella, cheddar, goat, feta)</li>
+<li>Toppings <b>(go wild!)</b></li>
+</ul>
+
+<h3 id="heading" class="col-xs-12 col-md-12">Instructions</h3>
+<ol>
+<li>Preheat the oven to 425 degrees Fahrenheit.</li>
+<li>Place the tortilla in a 12-inch cast iron pan (see <a href="#paragraph2">notes</a> on baking surfaces below).</li> 
+<li>Spread sauce evenly across the tortilla, leaving 1/2 inch around the edges.</li> 
+<li>Sprinkle with cheese and toppings.</li>
+<li>Bake for 12-14 minutes, until the cheese is golden and bubbling <strong>(no sooner!)</strong> and the edges of the tortilla are lightly browned.</li> 
+<li>Slice and serve.</li>
+</ol>
+
+
+</div>
+</div> 
+
+<div class="container">
+<div class="row">
+<h4 id="heading" class="col-xs-12 col-md-12">Notes</h4>
+<p id="paragraph2" class="col-xs-12 col-md-12">If you don’t have a cast iron skillet I highly recommend getting one, but you can use an oven-safe baking rack or bake it directly on the rack of your toaster oven instead. 
+Bake at 400 degrees for 8 to 11 minutes. 
+Do not use a regular baking sheet because the bottom of the tortilla will not get crispy, your cheese will slide right off and you’ll wish you ordered out.
+Although I have not tried it personally, Kim tried making tortilla pizzas in her cast iron skillet on a gas grill and said they turned out great!
+Make sure to check the ingredients list on the whole wheat tortillas. It should list about 5 ingredients, not 25. I buy mine at health food stores and store them in the fridge or freezer and they almost never go bad.</p>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<h4 id="heading" class="col-xs-12 col-md-12">Topping ideas:</h4>
+
+<p id="paragraph3" class="col-xs-12 col-md-12">As shown: barbecue sauce <i>(trust me)</i>, fresh mozzarella and sharp cheddar cheese, chopped red onion, sliced fresh jalapeño, fresh or defrosted frozen pineapple <i>(canned pineapple is not as good)</i>.
+Basil pesto, feta, fresh or roasted bell peppers <i>(jarred is fine)</i>, sliced kalamata olives, chopped red onion, sliced cherry tomatoes.
+Arugula pesto, basil pesto or light marinara sauce, mozzarella <i>(optional)</i>, fresh arugula and parmesan shavings added after baking <i>(like this)</i>.
+Red pepper pesto and goat cheese.
+<b>Anything you want!</b></p>
+</div>
+</div>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<!-- script for scroll -->
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="animatescroll.js"></script>
+	<script> $(function(){
+  $('#topnav ul li a').on('click', function(e){
+    e.preventDefault();
+    var scrolldiv = $(this).attr('href');
+    
+    $(scrolldiv).animatescroll({padding:50});
+  });
+});
+	</script>
+
+</body>
+</html>
