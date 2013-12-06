@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Understanding My Mind</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Advent+Pro:400,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:400,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+ <body id="page3">
+<div class="container">
+<div class="row">
+	<h1 id="uno" class="col-xs-12 col-md-12">A Guide to Understanding My Mind</h1>
+</div>
+<div class="row">
+	<h2 id="dos" class="col-xs-12 col-md-12">How My Brain and My Website Work</h2>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+	<h3 id="tres" class="col-xs-12 col-md-12">Welcome</h3>
+</div>
+
+<div class="row">
+	<p class="col-xs-12 col-md-12">Welcome to my website, I hope you enjoy all of the wonder my one page scroll has to offer. I took this assignment quite seriously, not only because it is worth a large portion of my grade, but also because I wanted to actually make use out of my site. My moto is "Why not kill two birds with one stone?". That is the attitude I took going into this project. I figured that I was going to have to spend a large amount of time on designing a website, might as well use it. This moto really affected how I approached working on this site, I wanted the site to be unique, but also to represent me as a person because I want to use it as my digital portfolio when I go into an interview. I hope all of these things are present and evident in viewing my site.</p>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+	<h3 id="tres" class="col-xs-12 col-md-12">The Way My Brain Works</h3>
+</div>
+<div class="row">
+	<p class="col-xs-12 col-md-12">I guess I will start out by explaining the more broad aspects of my site and then focus in on the little details, this is really just to help explain my thought process, a kind of "How to understand my brain". Why black and white? Black and white although some may say is a boring color scheme, I say they are wrong. I chose two colors, more specifically these two colors, because of their simplistic, clean design. I believe black and white to be very professional, and because my ultimate goal in completing this site is to use it in a professional setting, black and white are the perfect colors for me. To keep everyone on their toes I did decided to alternate between the two colors, I think it catches the eye, wakes you up a little, and grabs your attention as you scroll. Speaking of scroll, my one page scroll design was also created out of simplicity. I wanted the ease of one html document as well as the ease for the sake of my reader. Why anchors? My favorite Bible passage is listed under my initials on the Home page for a reason. I live my life by the words of that quote, it is somewhat of my personal motto, so I decided to make it a key and reoccuring aspect throughout my site. The four pages I chose to include were: an About Me, my Resume, my Portfolio, and my organization Voice. I again was thinking of what future employers would want to know about me within a professional setting, and that is what determined what pages I created. My About Me page, includes a flow chart. I wanted a creative way to show off who I am to an employer, instead of just listing personal traits and facts. I think the flow chart is fun, and upbeat, the perfect way to show off who I am. For my Resume page I researched current, stylish, and fun ways to display a resume online. All suggestions pointed toward the design that I have now, using images to illustrate skill level. I kept with the anchor theme and used anchor symbols to represent skill level. My Portfolio page I wanted to make simple. It features three images, that when clicked open three seperate pages, one my artwork, one my writing, and another my photography. I did not want to complicate the natural flow of my one page scroll my including the individual items of my portfolio, I felt this was too complex. That is why I decided to stick with the clickable images, that lead you off of the main page. The last page I wanted to add was one for my organization Voice. Voice is something that I am very proud of, and it demonstrates my leadership capabilities to prospective employers, so I included just some brief information about who we are and what we do. That about sums things up, I hope that explaination has made it easier to understand my thought process.</p>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+	<h3 id="tres" class="col-xs-12 col-md-12">Where Things Went Wrong</h3>
+</div>
+<div class="row">
+	<p class="col-xs-12 col-md-12">Although I think my site is top of the line, I know that you may find some errors as you scroll, click, and resize my various pages; I wanted to take a minute and apologize for these errors, but most of all explain them, so that you understand, well I tried.</p>
+</div>
+<div class="row">
+	<p class="col-xs-12 col-md-12">The biggest problem that I had throughout this process was the resizing of images. I know that we were supposed to style our websites to readjust in size, and I did that, for the most part, but not without stumbling along the way. There are a few images that I could not for the life of me get to resize the way that I wanted them to, my About Me flow chart to name one of them. My second problem, was my navigation bar. The navigation bar works, but sometimes it is difficult to click the buttons. I for the life of me cannot firgure out why. The last problem I faced was with scrolling. I wanted to boost my site by adding a delayed scroll with some java script, no matter what I did, java script and I just could not get along. This concluded my ride as we say in class "on the struggle bus".</p>
+</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<!-- script for scroll -->
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="animatescroll.js"></script>
+	<script> $(function(){
+  $('#topnav ul li a').on('click', function(e){
+    e.preventDefault();
+    var scrolldiv = $(this).attr('href');
+    
+    $(scrolldiv).animatescroll({padding:50});
+  });
+});
+	</script>
+</body>
+</head>

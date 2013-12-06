@@ -55,3 +55,28 @@ color: #B94126;
 font-family: 'Varela Round', sans-serif;
 color: #998141;
 }
+
+#page3 {
+font-size: 100%;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+background-color: #4F4641;
+color: white;
+}
+
+#uno {
+font-family: 'Advent Pro', sans-serif;
+font-size: 6em;
+color: #EAD5C2;
+}
+
+#dos {
+font-family: 'Kaushan Script', cursive;
+color: #D0A49B;
+}
+
+#tres {
+font-family: 'Alegreya SC', serif;
+color: #A1644F;
+}
+
